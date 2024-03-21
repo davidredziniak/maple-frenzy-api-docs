@@ -20,6 +20,7 @@ Closed endpoints require a valid token to authenticate a request. The `x-access-
 ### User
 
 * [Show info](user/get.md) : `GET /api/user/:userId`
+* [Change password](user/changepass.md) : `POST /api/user/changepass`
 
 ### Trade
 
