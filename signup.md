@@ -41,6 +41,18 @@ Used to sign up a new User.
 
 ## Error Response
 
+**Code** : `400 BAD REQUEST`
+
+**Content** :
+
+If 'username' is already taken.
+
+```json
+{
+    "error": "Username already taken."
+}
+```
+
 **Code** : `401 UNAUTHORIZED`
 
 **Content** :
