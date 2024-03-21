@@ -1,4 +1,4 @@
-# Show info on a user
+# Show User Info
 
 Get the details of any user given a userId.
 

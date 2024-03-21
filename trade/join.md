@@ -1,4 +1,4 @@
-# Join a trade
+# Join a Trade
 
 Join an existing trade.
 

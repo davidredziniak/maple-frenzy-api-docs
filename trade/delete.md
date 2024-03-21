@@ -1,4 +1,4 @@
-# Delete a trade
+# Delete a Trade
 
 Delete an existing trade.
 

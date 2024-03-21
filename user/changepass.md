@@ -1,4 +1,4 @@
-# Change User Password
+# Change a Users Password
 
 Modify the user password
 

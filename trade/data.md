@@ -1,4 +1,4 @@
-# Show info on a user
+# Show Trade Details
 
 Get the details of any trade given the `tradeId`
 

@@ -1,4 +1,4 @@
-# Create a trade
+# Create a Trade
 
 Create a new trade.
 

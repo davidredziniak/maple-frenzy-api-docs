@@ -1,4 +1,4 @@
-# Leave a trade
+# Leave a Trade
 
 Leave an existing trade.
 
