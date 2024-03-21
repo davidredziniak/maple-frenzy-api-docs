@@ -13,7 +13,7 @@ Used to sign up a new User.
 ```json
 {
     "username": "[valid username]",
-    "password": "[password in plain text]"
+    "password": "[password in plain text][minimum 8 chars]"
 }
 ```
 
