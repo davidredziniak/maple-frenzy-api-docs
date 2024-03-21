@@ -13,7 +13,7 @@ Used to sign in a registered User.
 ```json
 {
     "username": "[valid username]",
-    "password": "[password in plain text]"
+    "password": "[password in plain text][minimum 8 chars]"
 }
 ```
 
@@ -30,7 +30,7 @@ Used to sign in a registered User.
 
 **Code** : `200 OK`
 
-**Content example**
+**Content**
 
 ```json
 {
@@ -45,11 +45,18 @@ Used to sign in a registered User.
 
 **Content examples**
 
+If 'password' is less than 8 characters.
+
+```json
+{
+    "message": "Password provided was invalid."
+}
+```
+
 If 'username' does not exist in the database.
 
 ```json
 {
-    "accessToken": null,
     "message": "Username not found."
 }
 ```
@@ -58,7 +65,6 @@ If 'password' is incorrect for a given username.
 
 ```json
 {
-    "accessToken": null,
     "message": "Password incorrect."
 }
 ```

@@ -30,7 +30,7 @@ Used to sign up a new User.
 
 **Code** : `200 OK`
 
-**Content example**
+**Content**
 
 ```json
 {
@@ -41,7 +41,19 @@ Used to sign up a new User.
 
 ## Error Response
 
-**Condition** : All errors
+**Code** : `401 UNAUTHORIZED`
+
+**Content** :
+
+If 'password' is less than 8 characters.
+
+```json
+{
+    "message": "Password provided was invalid."
+}
+```
+
+**Condition** : All other errors
 
 **Code** : `500 INTERNAL SERVER ERROR`
 

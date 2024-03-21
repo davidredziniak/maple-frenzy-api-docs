@@ -14,7 +14,7 @@ Get the details of any trade given the `tradeId`
 
 **Code** : `200 OK`
 
-**Content examples**
+**Content**
 
 For a Trade with ID 2 on the database.
 
@@ -35,7 +35,7 @@ For a Trade with ID 2 on the database.
 
 **Code** : `404 NOT FOUND`
 
-**Content example**
+**Content**
 
 ```json
 {

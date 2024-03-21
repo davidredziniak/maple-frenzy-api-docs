@@ -30,7 +30,7 @@ Delete an existing trade.
 
 **Code** : `200 OK`
 
-**Content examples**
+**Content**
 
 Delete a trade with `tradeId` 5.
 

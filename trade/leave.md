@@ -28,7 +28,7 @@ Leave an existing trade.
 
 **Code** : `200 OK`
 
-**Content examples**
+**Content**
 
 Leave an existing `tradeId` 5 that the user has joined.
 

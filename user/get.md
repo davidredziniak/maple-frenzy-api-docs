@@ -14,16 +14,18 @@ Get the details of any user given a userId.
 
 **Code** : `200 OK`
 
-**Content examples**
+**Content**
 
 For a User with ID 3 on the database.
 
 ```json
 {
     "id": 3,
-    "username": "maplefrenzy_david",
-    "createdAt": "2024-03-13T19:49:26.483Z",
-    "lastLoggedIn": "2024-03-13T19:49:26.483Z"
+    "username": "maplefrenzy_admin",
+    "tradeCount": 0,
+    "reputation": 0,
+    "createdAt": "2024-03-21T16:17:21.768Z",
+    "lastLoggedIn": "2024-03-21T16:17:21.768Z"
 }
 ```
 
@@ -31,10 +33,20 @@ For a User with ID 3 on the database.
 
 **Code** : `404 NOT FOUND`
 
-**Content example**
+**Content examples**
+
+Invalid userId provided in the request.
 
 ```json
 {
     "error": "User not found."
+}
+```
+
+The userId provided was valid, but for some reason there is no user profile attached to it.
+
+```json
+{
+    "error": "User profile not found."
 }
 ```

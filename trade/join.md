@@ -28,7 +28,7 @@ Join an existing trade.
 
 **Code** : `200 OK`
 
-**Content examples**
+**Content**
 
 Join an existing `tradeId` 5.
 

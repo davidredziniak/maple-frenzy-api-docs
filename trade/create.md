@@ -32,7 +32,7 @@ Create a new trade.
 
 **Code** : `200 OK`
 
-**Content examples**
+**Content**
 
 Create a trade with a price of 1000 in the Global region limited to 15 buyers.
 
