@@ -1,4 +1,4 @@
-# Show Trade Details
+# View Trade Details
 
 Get the details of any trade given the `tradeId`
 

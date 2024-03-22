@@ -24,10 +24,16 @@ Closed endpoints require a valid token to authenticate a request. The `x-access-
 
 ### Trade
 
-Endpoints for viewing and manipulating trades that the Authenticated User has permissions to access.
+Endpoints for manipulating trades that the Authenticated User has permissions to access.
 
 * [Create a trade](trade/create.md) : `POST /api/trade/create`
 * [Delete a trade](trade/delete.md) : `POST /api/trade/delete`
 * [Join a trade](trade/join.md) : `POST /api/trade/join`
 * [Leave a trade](trade/leave.md) : `POST /api/trade/leave`
-* [View trade info](trade/data.md) : `GET /api/trade/data/:tradeId`
+
+#### Trade Data
+
+Endpoints for viewing trade data that the Authenticated User has permissions to access.
+
+* [View list of trades](trade/list.md) : `GET /api/trade/list`
+* [View trade details](trade/data.md) : `GET /api/trade/data/:tradeId`

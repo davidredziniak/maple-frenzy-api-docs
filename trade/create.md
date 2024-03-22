@@ -38,6 +38,7 @@ Create a trade with a price of 1000 in the Global region limited to 15 buyers.
 
 ```json
 {
+    "id": 3,
     "message": "Successfully created trade."
 }
 ```
