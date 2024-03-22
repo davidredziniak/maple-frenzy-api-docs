@@ -31,7 +31,7 @@ Endpoints for manipulating trades that the Authenticated User has permissions to
 * [Join a trade](trade/join.md) : `POST /api/trade/join`
 * [Leave a trade](trade/leave.md) : `POST /api/trade/leave`
 
-#### Trade Data
+### Trade Data
 
 Endpoints for viewing trade data that the Authenticated User has permissions to access.
 
