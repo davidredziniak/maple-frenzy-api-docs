@@ -48,7 +48,7 @@ URL: `/api/trade/data/3?slots`
     "price": 300,
     "region": "USA",
     "buyerLimit": 10,
-    "buyerAvailable": 10,
+    "buyerAvailable": 7,
     "slots": [
         {
             "userId": 1,
