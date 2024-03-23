@@ -41,9 +41,9 @@ Used to sign up a new User.
 
 ## Error Response
 
-**Code** : `400 BAD REQUEST`
+**Code** : `401 UNAUTHORIZED`
 
-**Content** :
+**Content examples** :
 
 If 'username' is already taken.
 
@@ -52,10 +52,6 @@ If 'username' is already taken.
     "error": "Username already taken."
 }
 ```
-
-**Code** : `401 UNAUTHORIZED`
-
-**Content** :
 
 If 'password' is less than 8 characters.
 
