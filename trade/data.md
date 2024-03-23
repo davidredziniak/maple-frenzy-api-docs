@@ -46,20 +46,23 @@ URL: `/api/trade/data/3?slots`
     "timeStart": "2024-03-22T16:22:02.213Z",
     "timeEnd": "2024-03-22T16:22:02.213Z",
     "price": 300,
-    "region": "USA",
+    "channels": [1,2,3,4,5,6,7,8,9,10,11],
     "buyerLimit": 10,
     "buyerAvailable": 7,
     "slots": [
         {
             "userId": 1,
+            "channel": 3,
             "position": 1
         },
         {
             "userId": 3,
+            "channel": 1,
             "position": 2
         },
         {
             "userId": 2,
+            "channel": 11,
             "position": 3
         }
     ]

@@ -13,7 +13,7 @@ Create a new trade.
 ```json
 {
     "price": "[valid price in integer form]",
-    "region": "[region]",
+    "channels": "[channels in an array of integers]",
     "buyerLimit": "[valid buyer limit in integer form]"
 }
 ```
@@ -23,7 +23,7 @@ Create a new trade.
 ```json
 {
     "price": 1000,
-    "region": "Global",
+    "channels": [1,2,3,4,5,6,7],
     "buyerLimit": 15
 }
 ```
@@ -34,7 +34,7 @@ Create a new trade.
 
 **Content**
 
-Create a trade with a price of 1000 in the Global region limited to 15 buyers.
+Create a trade with a price of 1000 that exists in channels 1 through 7, limited to 15 buyers.
 
 ```json
 {
