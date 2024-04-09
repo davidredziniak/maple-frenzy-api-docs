@@ -66,6 +66,20 @@ Delete a trade with `tradeId` 5.
 }
 ```
 
+**Condition** : All errors
+
+**Code** : `400 Bad Request`
+
+**Content examples**
+
+If the trade has already started/finished or is ongoing.
+
+```json
+{
+    "error": "You can't join a trade that is ongoing/completed."
+}
+```
+
 **Condition** : All other errors
 
 **Code** : `400 BAD REQUEST`

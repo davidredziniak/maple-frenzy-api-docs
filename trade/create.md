@@ -53,6 +53,36 @@ Create a trade with a price of 1000 for a duration of 3 hours that exists in cha
 
 **Code** : `400 Bad Request`
 
+**Content examples**
+
+The requested timeStart and timeEnd are either the same time, or the timeStart comes after timeEnd
+
+```json
+{
+    "error": "Trade startTime and endTime are invalid."
+}
+```
+
+The requested timeStart and timeEnd are valid, but the time difference is not in intervals of an hour (ex. duration is 1.5 hours)
+
+```json
+{
+    "error": "The requested trade times have to be in intervals of an hour."
+}
+```
+
+The list of channels available by the seller is invalid (is not an array of strictly integers)
+
+```json
+{
+    "error": "The list of channels requested are invalid."
+}
+```
+
+**Condition** : All other errors
+
+**Code** : `400 BAD REQUEST`
+
 **Content** :
 
 ```json

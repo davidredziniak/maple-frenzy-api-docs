@@ -56,6 +56,14 @@ Leave an existing `tradeId` 5 that the user has joined.
 
 **Content examples**
 
+If the trade has already started/finished or is ongoing.
+
+```json
+{
+    "error": "You can't join a trade that is ongoing/completed."
+}
+```
+
 If the user has not joined the specific trade.
 
 ```json
@@ -64,7 +72,7 @@ If the user has not joined the specific trade.
 }
 ```
 
-If the user trying to leave a trade is the user that initially created the trade.
+If the user trying to leave a trade is the seller that initially created the trade.
 
 ```json
 {

@@ -60,6 +60,14 @@ Join an existing `tradeId` 5 at the channel 5 for 2 hours.
 
 **Content examples**
 
+If the trade has already started/finished or is ongoing.
+
+```json
+{
+    "error": "You can't join a trade that is ongoing/completed."
+}
+```
+
 If the user has already joined the trade.
 
 ```json
@@ -81,6 +89,22 @@ If the user trying to join a trade is the user that initially created the trade.
 ```json
 {
     "error": "You can't join a trade that you created."
+}
+```
+
+User requests a duration that exceeds the trade time
+
+```json
+{
+    "error": "Invalid requested duration."
+}
+```
+
+User requests a channel that is not made available by the seller in the trade
+
+```json
+{
+    "error": "Invalid requested channel."
 }
 ```
 
