@@ -13,6 +13,7 @@ Join an existing trade.
 ```json
 {
     "tradeId": "[valid tradeId in integer form]",
+    "duration": "[valid number of hours]",
     "channel": "[valid channel in the trade's channel range in integer form]",
 }
 ```
@@ -22,6 +23,7 @@ Join an existing trade.
 ```json
 {
     "tradeId": 5,
+    "duration": 2,
     "channel": 7,
 }
 ```
@@ -32,7 +34,7 @@ Join an existing trade.
 
 **Content**
 
-Join an existing `tradeId` 5 at the channel 5.
+Join an existing `tradeId` 5 at the channel 5 for 2 hours.
 
 ```json
 {

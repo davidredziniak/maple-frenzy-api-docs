@@ -25,7 +25,7 @@ A list of trades exists.
             "price": 300,
             "channels": [3,4,5,6,7,10,11],
             "timeStart": "2024-03-22T16:22:02.213Z",
-            "timeEnd": "2024-03-22T16:22:02.213Z",
+            "timeEnd": "2024-03-22T18:22:02.213Z",
             "buyerLimit": 10,
             "buyerAvailable": 10
         },
@@ -35,7 +35,7 @@ A list of trades exists.
             "price": 600,
             "channels": [4,5,6,7,8],
             "timeStart": "2024-03-22T16:23:22.735Z",
-            "timeEnd": "2024-03-22T16:23:22.736Z",
+            "timeEnd": "2024-03-22T18:23:22.736Z",
             "buyerLimit": 15,
             "buyerAvailable": 5
         }
