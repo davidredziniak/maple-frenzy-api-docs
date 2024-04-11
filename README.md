@@ -12,10 +12,14 @@ The `x-access-token` header is not required.
 
 * [SignIn](signin.md) : `POST /api/signin/`
 * [SignUp](signup.md) : `POST /api/signup/`
+* [Refresh](refresh.md) : `POST /api/refresh/`
 
 ## Endpoints that require Authentication
 
 Closed endpoints require a valid token to authenticate a request. The `x-access-token` header is required with a valid token that is encrypted with a valid userId. A token can be retrieved in the body of the signin and signup response above.
+
+The `accessToken` is valid for 5 minutes.
+The `refreshToken` is valid for 60 minutes.
 
 ### User
 

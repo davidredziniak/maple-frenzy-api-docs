@@ -34,7 +34,8 @@ Used to sign up a new User.
 
 ```json
 {
-    "accessToken": "93144b288eb1fdccbe46d6fc0f241a51766ecd3d",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzEyODYwNjMzLCJleHAiOjE3MTI4NjA5MzN9.afv83XOb2bcqzW9ZCZT8WXSc8EoFQuyORmbi3W9t9pU",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzEyODYwNjMzLCJleHAiOjE3MTI4NjQyMzN9.PXRMh-QpUBCldUN2I4ZxHvjb4XsHbtxAoLLOS_Jwui0",
     "message": "Successfully signed up."
 }
 ```
