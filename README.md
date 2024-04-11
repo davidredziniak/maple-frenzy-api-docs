@@ -18,8 +18,8 @@ The `x-access-token` header is not required.
 
 Closed endpoints require a valid token to authenticate a request. The `x-access-token` header is required with a valid token that is encrypted with a valid userId. A token can be retrieved in the body of the signin and signup response above.
 
-The `accessToken` is valid for 5 minutes.
-The `refreshToken` is valid for 60 minutes.
+The `accessToken` is valid for 60 minutes.
+The `refreshToken` is valid for 1 day.
 
 ### User
 
