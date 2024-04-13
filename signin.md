@@ -46,6 +46,14 @@ Used to sign in a registered User.
 
 **Content examples**
 
+If the user has not verified their email yet.
+
+```json
+{
+    "message": "Please complete verification by clicking the link sent to the email."
+}
+
+```
 If 'password' is less than 8 characters.
 
 ```json

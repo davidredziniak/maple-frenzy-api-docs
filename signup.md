@@ -12,7 +12,8 @@ Used to sign up a new User.
 
 ```json
 {
-    "username": "[valid username]",
+    "username": "[valid unique username]",
+    "email": "[valid unique email]",
     "password": "[password in plain text][minimum 8 chars]"
 }
 ```
@@ -22,6 +23,7 @@ Used to sign up a new User.
 ```json
 {
     "username": "maplefrenzyadmin",
+    "email": "mappplee@gmail.com",
     "password": "maplefrenzy333!"
 }
 ```
@@ -34,9 +36,7 @@ Used to sign up a new User.
 
 ```json
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzEyODYwNjMzLCJleHAiOjE3MTI4NjA5MzN9.afv83XOb2bcqzW9ZCZT8WXSc8EoFQuyORmbi3W9t9pU",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzEyODYwNjMzLCJleHAiOjE3MTI4NjQyMzN9.PXRMh-QpUBCldUN2I4ZxHvjb4XsHbtxAoLLOS_Jwui0",
-    "message": "Successfully signed up."
+    "message": "Successfully signed up. Please verify account by clicking the link in the email."
 }
 ```
 
@@ -51,6 +51,14 @@ If 'username' is already taken.
 ```json
 {
     "error": "Username already taken."
+}
+```
+
+If 'email' is already taken.
+
+```json
+{
+    "error": "Email already taken."
 }
 ```
 
