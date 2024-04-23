@@ -34,6 +34,7 @@ Used to sign in a registered User.
 
 ```json
 {
+    "userId": 3,
     "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzEyODYwNjM3LCJleHAiOjE3MTI4NjA5Mzd9.ubcK8_oWF_fKFg1iiNP01cDzOtvaC0Zpx1qkajNvAWA",
     "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzEyODYwNjM3LCJleHAiOjE3MTI4NjQyMzd9._1YsYCUDSTmsLtCxArB9z6tYYnIEn170ZUTXo58clAc",
     "message": "Successfully signed in."
