@@ -50,7 +50,7 @@ If 'username' is already taken.
 
 ```json
 {
-    "error": "Username already taken."
+    "message": "Username already taken."
 }
 ```
 
@@ -58,7 +58,7 @@ If 'email' is already taken.
 
 ```json
 {
-    "error": "Email already taken."
+    "message": "Email already taken."
 }
 ```
 
