@@ -3,7 +3,7 @@ Documentation on Maple-Frenzy API endpoints
 These endpoints will be frequently updated as development progresses.
 
 Current URL:
-https://maple-frenzy.onrender.com/
+https://maplefrenzy.com
 
 ## Open Endpoints
 
